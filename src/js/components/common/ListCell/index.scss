@@ -1,0 +1,71 @@
+.imgBox{
+	width: 30%;
+ 	margin-right: 20px;
+}
+
+.listCellImgStyle{
+    height: 150px;
+    width: auto;
+}
+
+.listCellRightDiv{
+    width: 68%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.listCellName{
+    font-weight: bolder;
+    font-size: 26px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.listCellDesc{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-weight: 200;
+    color: #8a8a8a;
+    font-size: 24px;
+}
+
+.listCellContainer{
+		background: #fff;
+    display: flex;
+    flex-direction: row;
+    padding:20px 0;
+    margin-bottom: 2px;
+    border-bottom: solid 2px #eee;
+}
+
+.listCellBottomDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.listCellPrice{
+    color: #ff6633;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.listCellExPrice{
+    color: #c5c5c5;
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 15px;
+    text-decoration: line-through;
+}
+.listCellPrice::before,.listCellExPrice::before{
+    content:'￥'
+}
+
+.hasSolied{
+    color: #c5c5c5;
+    font-size: 24px;
+    font-weight: 200;
+}

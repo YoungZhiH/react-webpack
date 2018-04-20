@@ -1,0 +1,63 @@
+.container{
+    background: #f2f2f2;
+}
+.headerContainer{
+    position: relative;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+}
+.headerContainer img{
+    width: 32px;
+    position: absolute;
+    left:20px;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+.headerContainer span{
+    padding: 15px 0 ;
+}
+
+
+.gpsCity{
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    font-size: 28px;
+    color: #bbb;
+    padding: 20px 0 20px 20px;
+}
+
+.gpsCity>span{
+    margin-right: 20px;
+    color: #202020;
+}
+.hotCity{
+    font-size: 24px;
+    margin-left: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+.hotCityContainer{
+    background: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-bottom: solid thin #dcdbdb;
+}
+.hotCityName{
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 0;
+    font-size: 26px;
+    border-top: solid thin #dcdbdb;
+    border-left: solid thin #dcdbdb;
+    color: #202020;
+}

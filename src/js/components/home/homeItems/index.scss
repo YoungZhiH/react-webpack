@@ -1,0 +1,51 @@
+.singleCategory{
+	display: flex;
+	flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.cell{
+	width: 20%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin-top: 40px;
+	img{
+		width: 90px;
+		background: #fff;
+		max-width: 100%;
+	}
+	.name{
+		margin-top: 5px
+	}
+}
+
+.bg{
+	background: #fff
+}
+.spanContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    height: 75px;
+}
+
+.spanOff{
+    display: inline-block;
+    background: #ccc;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin:0 10px;
+}
+
+.spanOn{
+    display: inline-block;
+    background: #f5734b;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin:0 10px;
+}

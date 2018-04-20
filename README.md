@@ -8,6 +8,22 @@ react+ react-router + axios + mock + webpack + react-reduex
     npm run start
 
 
+## 项目运行
+
+#### 注意：由于涉及大量的 ES6/7 等新属性，nodejs 必须是 6.0 以上版本 ，建议使用 node 最新LTS版
+
+```
+git clone https://github.com/duxianwei520/react.git  
+
+cd react （进入当前的项目）
+
+npm install  (安装依赖包)
+
+npm start (运行本地开发环境)
+
+npm run build (打包)
+
+
 表情
 ----------
 Github的Markdown语法支持添加emoji表情，输入不同的符号码（两个冒号包围的字符）可以显示出不同的表情。

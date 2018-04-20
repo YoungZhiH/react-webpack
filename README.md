@@ -2,15 +2,9 @@ react+ react-router + axios + mock + webpack + react-reduex
 =========================== 
 仿大众点评 移动端网站
 
-### 运行
-    cd react-webpack
-    npm i
-    npm run start
-
-
 ## 项目运行
 
-#### 注意：由于涉及大量的 ES6/7 等新属性，nodejs 必须是 6.0 以上版本 ，建议使用 node 最新LTS版
+#### 第一次上传 bug也许会存在
 
 ```
 git clone https://github.com/duxianwei520/react.git  
@@ -19,7 +13,7 @@ cd react （进入当前的项目）
 
 npm install  (安装依赖包)
 
-npm start (运行本地开发环境)
+npm run start (运行本地开发环境)
 
 npm run build (打包)
 
